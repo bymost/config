@@ -1,0 +1,18 @@
+# 该文件用于配置私钥对应的服务器
+# Default github user(first@mail.com)
+Host oschina
+ HostName git.oschina.net
+ User 
+ IdentityFile ~/.ssh/id_rsa
+
+Host gitee
+ HostName gitee.com
+ User 
+ IdentityFile ~/.ssh/id_rsa
+
+# second user(second@mail.com)
+# 建一个github别名，新建的帐号使用这个别名做克隆和更新
+Host github
+ HostName github.com
+ User zhtibrim@gmail.com
+ IdentityFile ~/.ssh/id_rsa_personal
